@@ -65,7 +65,7 @@ h2, h4 {
    margin: 0 auto; 
    height: 700px; 
    width: 1200px; 
-   background-image: url('/images/img-mission-background.webp');
+   background-image: url('images/img-mission-background.webp');
    display: flex;
    justify-content: center;
    align-items: center; 
@@ -142,7 +142,7 @@ h2, h4 {
 
 /*LOCATION SECTION*/
 .location {
-    background-image: url('/images/img-locations-background.webp');
+    background-image: url('images/img-locations-background.webp');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position-y: -46px; 
@@ -221,4 +221,5 @@ h2, h4 {
 .main-footer h5, p{
     padding-bottom: 30px; 
 }
+
 
