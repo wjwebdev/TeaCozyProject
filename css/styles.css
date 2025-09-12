@@ -1,0 +1,224 @@
+/*CSS RESET*/ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+/*CSS Variables*/ 
+:root {
+    --black: #000000;
+    --seashell: #FFF5EE;
+}
+
+body {
+    background-color: var(--black); 
+    font-family: helvetica, sans-serif; 
+    opacity: 0.9; 
+    color: var(--seashell);
+    font-size: 22px;
+}
+
+h2, h4 {
+    text-align: center; 
+}
+
+
+/*NAVIGATION STYLES*/
+.main-nav {
+    background-color: var(--black); 
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid var(--seashell); 
+    width: 100%; 
+    height: 69px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.menu-list {
+    display: flex; 
+
+}
+
+.menu-list li {
+    list-style: none; 
+    font-size: 22px; 
+}
+
+.nav-links {
+    text-decoration: underline; 
+    color: var(--seashell); 
+    padding: 0px 12px; 
+    outline: none; 
+}
+
+.brand img {
+    height: 50px; 
+    padding-left: 10px; 
+}
+
+/*HEADER STLYLES*/
+.main-header { 
+   margin: 0 auto; 
+   height: 700px; 
+   width: 1200px; 
+   background-image: url('/images/img-mission-background.webp');
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column; 
+}
+
+.header-box {
+    width: 100%; 
+    background-color: var(--black); 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.header-box h2 {
+    padding: 16px 0px 18px 0px;  
+}
+
+.header-box h4 {
+    padding-bottom: 8px; 
+
+}
+
+/*TEA OF THE MONTH SECTION*/ 
+.tea-of-month {
+    width: 1000px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    padding: 68px 0; 
+}
+
+.tea-of-month h2{
+    padding: 10px 0; 
+}
+
+
+.col img {
+    width: 300px; 
+    height: 200px; 
+}
+
+.img-txt {
+    padding-top: 10px; 
+}
+
+.col {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    padding-top: 14px; 
+}
+
+.col-2 img {
+     width: 300px; 
+     height: 200px; 
+}
+
+.col-2{
+    display: flex; 
+    justify-content: center; 
+    padding-top: 19px; 
+}
+
+.col-2 .image-box {
+    margin: 0 13px; 
+}
+
+.sub-heading{
+    padding-bottom: 3px; 
+}
+
+
+/*LOCATION SECTION*/
+.location {
+    background-image: url('/images/img-locations-background.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position-y: -46px; 
+    width: 1200px;
+    height: 500px; 
+    margin: 0 auto; 
+}
+
+.location-container { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 293px;
+
+}
+
+.location-info {
+    background-color: var(--black);
+    opacity: 1; 
+    width: 300px;
+    height: 293px; 
+    margin: 0 40px;  
+}
+
+.location-info h3, p {
+    text-align: center; 
+}
+
+.location-info h3 {
+    padding-top: 26px; 
+}
+
+.location-info p {
+    padding: 26px 0; 
+}
+
+.location h2 {
+   padding:30px 0px 15px 0px 
+}
+
+/*FOOTER SECTION*/
+.main-footer {
+    height: 200px; 
+    margin: 0 auto; 
+}
+
+.main-footer h5 {
+    text-align: center; 
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px; 
+    font-weight: bold; 
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px; 
+    font-weight: bold; 
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    padding-top: 34px; 
+}
+
+.main-footer h2{
+    padding: 20px 0 40px 0; 
+}
+
+.main-footer h5, p{
+    padding-bottom: 30px; 
+}
+
